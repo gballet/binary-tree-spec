@@ -8,7 +8,7 @@ CODE_HASH_LEAF_KEY = 1
 HEADER_STORAGE_OFFSET = 64
 CODE_OFFSET = 128
 STEM_SUBTREE_WIDTH = 256
-MAIN_STORAGE_OFFSET = 256
+MAIN_STORAGE_OFFSET = 1 << 240
 
 
 def old_style_address_to_address32(address: Address) -> Address32:
